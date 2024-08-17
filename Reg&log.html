@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/jhome.css">
+    <title>JMADE Home</title>
+</head>
+<body>
+    <section id="header">
+        <h1 id="title1">JMADE</h1>
+       <hr>
+    <div class="navcontainer">
+     <ul class="navs">
+          <li class="navcont"><a href="index.html">Welcome</a></li>
+          <li  class="navcont"><a href="Home.html">Home</a></li>
+          <li  class="navcont"><a href="shop.html">Shoping</a>
+    <ul class="hiddennav">
+        <li class="navcont"><a>Homemade products</a></li>
+        <li class="navcont"><a>Arts</li></a>
+    </ul></li> 
+    </ul> 
+    </div>
+ 
+     
+ <section id="registration">
+    <div class="regform">
+        <label for="firstname" >First Name</label>
+        <input type="text" id="firstname" name="First Name" required>
+    </div> 
+     <div class="regform">
+        <label for="Lastname">Last Name</label>
+        <input type="text" id="Lastname" name="Last Name" required>
+     </div>
+     <div class="regform">
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" name="Email" required>
+     </div> 
+     <div class="regform">
+        <label for="MobileNumber">Mobile Number</label>
+        <input type="text" id="Mobile" name="number" required>
+     </div>
+     <div class="regform">
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob" name="Date" required>
+      </div>
+     <button id="register1" >Register</button>
+ </section>
+
+ <div id="containerup">
+   <p>Already a Member? Then<button id="login" onclick="showLoginForm()">log in</button></p>
+  
+ <div id="popup" class="LoginForm">
+   <span class="close-btn" onclick="closelogin()">&times;</span>
+   <h1>Log In</h1>
+   <div id="popup-cntnt">
+     
+     <label for="Username">Username</label>
+     <input type="text" id="ppcntnt" name="Username" required>
+     <label for="passsword">Password</label>
+     <input type="password" id="ppcntnt" name="password" required>
+    <span>
+     <label id="remember-lbl" for="rememberme">Remember Me</label>
+     <input type="checkbox" id="rememberme" name="rememberme">
+   </span>
+     <button id="loginbtn">Login</button>
+   </div>
+</div>
+</div> 
+
+ <div id="newreg">
+   
+   
+ </div>
+
+ <section id="footer">
+   <div id="foot">
+       <ul id="foote">
+           <li class="footer1"><a href="">Contact</a></li>
+           <li  class="footer1"><a href="">Privacy Policies(cache)</a></li>
+           <li  class="footer1"><a href="">Social Media</a></li>
+              <a href="http://facebook.com"> <i class="fa-brands fa-facebook"></i></a>
+              <a href="http://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>             
+           <p id="copyright"><a href="">All copy Rights are Reserverd in Jmade.pvt</a></p>
+       </ul>
+   </div>
+   </section>
+   
+ <script src="Jmade.js"></script>
+</body>
+</html>
